@@ -122,7 +122,7 @@ ul{
 }
 .left img{
   width: auto;
-  height: 50px;
+  height: 40px;
 }
 
 @media (max-width:720px) {
