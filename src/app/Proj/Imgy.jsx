@@ -13,6 +13,8 @@ const Imgy = [
   "Bird.jpg",
   "NoonSwing.jpg",
   "Pony.jpg",
+  "Diwali.jpg",
+  "Girl_swinging.jpg",
   "Pencil SketchGirl.jpg",
   "oggy.jpg",
   "Flowerpot.jpg",
