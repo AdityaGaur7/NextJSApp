@@ -1,12 +1,13 @@
 import React from "react";
 import Imgy from "./Imgy";
 import Link from "next/link";
+
 // import Photo from '../[Photu]/page'
 function Art() {
   return (
     <>
     <div>
-      
+
       <div className="gallery">
         {Imgy.map((val) => {
           let url = `images/${val}`;
@@ -18,6 +19,7 @@ function Art() {
           
         })}
       </div>
+    
      
     </div>
   

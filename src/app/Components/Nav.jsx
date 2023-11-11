@@ -8,13 +8,13 @@ export default function Nav() {
     <div>
     <div className="navi" >
         <div className="left">
-          <h2>Artwork</h2>
+         <img src="images/logo.png" alt="" />
         </div>
-        <div className="right">
+        <div className="right" id='top'>
             <ul>
-                <li><Link href='/'><HomeIcon/></Link></li>
-                <li><Link href='/Artist'><ColorLensIcon/></Link></li>
-                <li><Link href='/Dev'><CodeIcon/></Link></li>
+                <li><Link href='/'><span>Home</span><HomeIcon/></Link></li>
+                <li><Link href='/Artist'><span>Artist</span><ColorLensIcon/></Link></li>
+                <li><Link href='/Dev'><span>Dev</span><CodeIcon/></Link></li>
             </ul>
         </div>
     </div>

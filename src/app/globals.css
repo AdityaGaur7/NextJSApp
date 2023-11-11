@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -95,9 +96,7 @@ ul{
 .flex li a{
   color: rgb(143, 142, 142);
 }
-.right{
-  
-}
+
 .right ul li a{
   color: rgb(53, 53, 53);
 }
@@ -106,6 +105,25 @@ ul{
   color: red;
 }
 
+.center h1{
+  font-family: fantasy;
+  color: #00e8f8;
+  text-shadow:10px 9px 2px #707070;;
+}
+.center p{
+  font-family: monospace;
+  color: wheat;
+}
+.center h3{
+  font-family: math;
+}
+.center h4{
+  font-family: monospace;
+}
+.left img{
+  width: auto;
+  height: 50px;
+}
 
 @media (max-width:720px) {
   img{
@@ -115,5 +133,19 @@ ul{
     text-align: center;
    
   }
+  .center img{
+    width: 60%;
+    height: auto;
+  }
+  .right ul{
+    display: flex;
+    gap: 8px;
+  
+  }
 } 
 
+.top{
+  background: bottom;
+  color: white;
+  border-radius: 4px;
+}
