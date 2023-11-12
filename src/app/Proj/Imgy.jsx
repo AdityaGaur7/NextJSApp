@@ -2,6 +2,7 @@ import React from "react";
 
 const Imgy = [
   "doremon.jpg",
+  "Diwali.jpg",
   "LordKrishna.jpg",
   "LordHanuman.jpg",
   "BabyCow.jpg",
@@ -13,7 +14,6 @@ const Imgy = [
   "Bird.jpg",
   "NoonSwing.jpg",
   "Pony.jpg",
-  "Diwali.jpg",
   "Girl_swinging.jpg",
   "Pencil SketchGirl.jpg",
   "oggy.jpg",
